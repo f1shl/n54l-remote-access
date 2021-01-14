@@ -114,8 +114,8 @@ class RemoteAccessCard:
         os.system(exec_str)
 
 if __name__ == "__main__":
-    user = 'admin'
-    password = 'backfisch13%F'
+    user = ''
+    password = ''
     ip = '192.168.178.3'
     
     r = RemoteAccessCard(ip, user, password)
