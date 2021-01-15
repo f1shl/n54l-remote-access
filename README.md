@@ -1,20 +1,16 @@
 # n54l-kvm-remote
 
 ## Prerequisites
-- Beziehen Sie sich eine JRE Verison 1.6 für 32Bit. Für den Test wurde die Version 1.6.0_45 verwendet - SIEHE Info
-- Installieren Sie diese Version.
-- Erstellen Sie ein neues Verzeichnis: Bsp. KVM
-- Kopieren Sie folgendes Verzeichnis C:\Program Files (x86)\Java\jre6 in das zuvor erstellte KVM Verzeichnis und benennen es in jre um.
-- Beziehen Sie folgende Dateien von der HP RAC aus ihrem Server:
+- Git Repository klonen
+- JRE Verison 1.6 für 32Bit herunterladen und installieren. Für den Test wurde die Version 1.6.0_45 verwendet
+- Das Verzeichnis C:\Program Files (x86)\Java\jre6 in das Git Repository kopieren und in "jre" umbennen.
+- Folgende Dateien von der RemoteAccessCard herunterladen:
   - http://<IPAdresseDerRAC>:80/software/avctKVMIOWin32.jar
   - http://<IPAdresseDerRAC>:80/software/avctKVM.jar
-
-- Kopieren Sie die avctKVM.jar Datei in das KVM Verzeichnis.
-- Kopieren Sie die avctKVMIOWin32.jar Datei in das KVM Verzeichnis und benennen die in avctKVMIOWin32.zip um.
-- Erstellen Sie ein weiteres Verzeichnis im KVM Ordner mit dem Namen: lib
-- Öffnen Sie nun die ZIP Datei und kopieren die avctKVMIO.dll Datei in das lib Verzeichnis.
-
-- Von https://chromedriver.chromium.org/downloads dann den aktuellen Chromedriver herunterladen, der auch zum isntallieren Goolge Chrome Browser passt.
+- Die avctKVM.jar Datei in das Git Repository kopieren.
+- Die avctKVMIOWin32.jar Datei in das Git Repository kopieren und in avctKVMIOWin32.zip umbennen.
+- Einen Ordner "lib" im Git Repository erstellen und das grade erstellte Zip Verzeichnis dorthin entpacken
+- Von https://chromedriver.chromium.org/downloads dann den aktuellen Chromedriver herunterladen, der auch zum installieren Goolge Chrome Browser von der Version passt.
 
 Die Ordnerstruktur sieht nun folgendermaßen aus:
 |
