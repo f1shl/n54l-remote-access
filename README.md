@@ -1,4 +1,4 @@
-# n54l-kvm-remote
+# n54l-remote-access
 This small python script can be used to establish the connection to the N54L Remote Access Card, without the need of downloading the java file manually of the remote access card webserver.
 This script works as well for Windows 10.
 
