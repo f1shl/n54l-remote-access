@@ -119,9 +119,9 @@ class RemoteAccessCard:
 
 
 if __name__ == "__main__":
+    ip = input("IP address: ")
     user = input("User name: ")
     password = getpass.getpass("Password: ")
-    ip = '192.168.178.3'
     
     r = RemoteAccessCard(ip, user, password)
     try:
